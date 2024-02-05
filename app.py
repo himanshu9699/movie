@@ -65,6 +65,6 @@ def recommendation():
 
     return render_template("prediction.html",movie_list=movie_list,status=status)
 
-if __name__ =='__main__':
-    app.debug = True
-    app.run()
+# if __name__ =='__main__':
+#     app.debug = True
+#     app.run()
