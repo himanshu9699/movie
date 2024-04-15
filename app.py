@@ -46,9 +46,9 @@ def recommend(movie):
 def home():
     return render_template("index.html")
 
-@app.route('/about')
-def about():
-    return render_template("about.html")
+# @app.route('/about')
+# def about():
+#     return render_template("about.html")
 
 @app.route('/contact')
 def contact():
@@ -72,3 +72,6 @@ def recommendation():
             return render_template("prediction.html",error=error,movie_list=movie_list,status=status)
 
     return render_template("prediction.html",movie_list=movie_list,status=status)
+if __name__ =='__main__':
+    app.debug = True
+    app.run()
