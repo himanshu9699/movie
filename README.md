@@ -2,8 +2,6 @@
 
   <p>Welcome to the Movie Recommendation System! This project provides personalized movie recommendations based on user preferences and ratings. The system is deployed on a website where users can interact with the application and receive tailored movie suggestions.</p>
 
-  <h2>Website URL</h2>
-  <p>You can access the deployed Movie Recommendation System at <a href="https://your-website-url.com" target="_blank">your-website-url.com</a>.</p>
 
   <h2>Table of Contents</h2>
   <ul>
